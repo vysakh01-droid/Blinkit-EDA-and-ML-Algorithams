@@ -1,6 +1,6 @@
 # Hide sensitive + heavy files
 .env
-data/raw/BlinkIT Grocery Data.csv
+
 __pycache__/
 .ipynb_checkpoints/
 
