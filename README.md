@@ -67,6 +67,7 @@ Complete analytics pipeline on Blinkit Grocery Sales: Clean → SQL → EDA → 
 ---
 ## 📁 Repository Structure
 
+```text
 blinkit-grocery-eda/
 ├── notebooks/
 │   ├── 01_EDA.ipynb
@@ -76,11 +77,13 @@ blinkit-grocery-eda/
 ├── dashboard/
 │   ├── blinkit_dashboard.pbix
 │   └── dashboard.png
-├── data/csv/
-│   ├── BlinkIT_Grocery_Data.csv
-│   └── Blinkit_Grocery_cleaned.csv
+├── data/
+│   └── csv/
+│       ├── BlinkIT_Grocery_Data.csv
+│       └── Blinkit_Grocery_cleaned.csv
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -92,6 +95,7 @@ pip install -r requirements.txt
 cp .env.example .env
 # Add your PostgreSQL credentials
 jupyter notebook notebooks/01_EDA.ipynb
+
 
 👤 Author
 Vysakh.S.Raj
